@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseTranslate.Android", "MorseTranslate\MorseTranslate.Android\MorseTranslate.Android.csproj", "{727DA6F9-C274-4A71-AD71-A39619D6C3EB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MorseTranslate", "MorseTranslate\MorseTranslate\MorseTranslate.shproj", "{19D546FA-D453-49FE-912F-7CD2018E5763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morse.Translator", ".\Morse.Translator\Morse.Translator.csproj", "{1FDC43C4-28CC-4683-9453-8462D88640E8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MorseTranslate\MorseTranslate\MorseTranslate.projitems*{19d546fa-d453-49fe-912f-7cd2018e5763}*SharedItemsImports = 13
+		MorseTranslate\MorseTranslate\MorseTranslate.projitems*{727da6f9-c274-4a71-ad71-a39619d6c3eb}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{727DA6F9-C274-4A71-AD71-A39619D6C3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727DA6F9-C274-4A71-AD71-A39619D6C3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727DA6F9-C274-4A71-AD71-A39619D6C3EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{727DA6F9-C274-4A71-AD71-A39619D6C3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727DA6F9-C274-4A71-AD71-A39619D6C3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727DA6F9-C274-4A71-AD71-A39619D6C3EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1FDC43C4-28CC-4683-9453-8462D88640E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDC43C4-28CC-4683-9453-8462D88640E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDC43C4-28CC-4683-9453-8462D88640E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDC43C4-28CC-4683-9453-8462D88640E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47844773-BBD2-49EB-B448-8D491540A271}
+	EndGlobalSection
+EndGlobal
